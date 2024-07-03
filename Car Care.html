@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Care page</title>
     <link rel="stylesheet" href="CSS/navStyle.css">
+    <link rel="stylesheet" href="CSS/content.css">
+    <style>
+        .outsidewash {
+            display: flex;
+            flex-direction: row;
+        }
+        .fineshine {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation links -->
@@ -21,7 +34,7 @@
         </div>
     </div>
 <!--this is our car care contents -->
-    <div>
+    <div class="outsidewash">
 <h2> Outside Wash </h2>
 <p>When its just the outside that needs cleaning.</p>
 <ul>
@@ -43,7 +56,7 @@
         <li>Dash, Console & Door Trims Wiped</li>
     </ul>
 </div>
-<div>
+<div class="fineshine">
     <h2> FINE SHINE SPECIAL</h2>
 <p> When your car requires some extra TLC.</p>
     <ul>
