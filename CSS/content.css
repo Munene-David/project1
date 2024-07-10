@@ -1,10 +1,66 @@
-.outsidewash{
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+/* Reset default styles */
+h1, h2, p {
+    margin: 0;
+    padding: 0;
 }
-.fineshine{
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+}
+
+#content {
+    background: black;
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    width: 80%; 
+}
+
+/* About section styling */
+.about-section {
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+
+/* Team member card styling */
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.container {
+    padding: 100px 16px;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* Responsive layout for small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
 }

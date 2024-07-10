@@ -6,58 +6,90 @@
     <title>Car Care page</title>
     <link rel="stylesheet" href="CSS/navStyle.css">
     <link rel="stylesheet" href="CSS/content.css">
-    <style>
-        .outsidewash {
-            display: flex;
-            flex-direction: row;
-        }
-        .fineshine {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-    </style>
+    <link rel="stylesheet" href="CSS/tablestructure.css">
 </head>
 <body>
     <!-- Navigation links -->
     <div class="topnav">
-        <a href="index.html" >Home Page</a>
-        <a href="Car Care.html" >Car Care</a>
-        <a href="Detailing.html" >Detailing</a>
-        <a href="locations.html" >Locations</a>
-        <a href="about-us.html" >About Us</a>
-        <a href="bookNow.html" >Book Now</a>
-
+        <a href="index.html">Home Page</a>
+        <a href="Car Care.html">Car Care</a>
+        <a href="Detailing.html">Detailing</a>
+        <a href="locations.html">Locations</a>
+        <a href="about-us.html">About Us</a>
+        <a href="bookNow.html">Book Now</a>
         <div class="topnav-right">
-            <a href="membership" >Membership</a>
+            <a href="membership">Membership</a>
         </div>
     </div>
-<!--this is our car care contents -->
-    <div class="outsidewash">
-<h2> Outside Wash </h2>
-<p>When its just the outside that needs cleaning.</p>
-<ul>
-    <li>Pre-rinse</li>
-    <li>Hand wash with PH Neutral soap</li>
-    <li>Chamois Dry</li>
-    <li>Wheels & Tyre Steam Cleaned & Tyre Shine</li>
-</ul>
+
+ <!-- Outside Wash -->
+ <div class="outsidewash centered-text">
+    <h2>Outside Wash</h2>
+    <div class="image-container">
+        <img src="images/outside_wash_image.jpg" alt="Outside Wash Image">
+    </div>
+    <table>
+        <tr>
+            <th>Service</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Pre-rinse</td>
+            <td>Thoroughly rinse the exterior of the car.</td>
+        </tr>
+        <tr>
+            <td>Hand wash</td>
+            <td>Use pH Neutral soap for gentle cleaning.</td>
+        </tr>
+        <tr>
+            <td>Chamois Dry</td>
+            <td>Dry the car using a soft chamois cloth.</td>
+        </tr>
+        <tr>
+            <td>Wheels & Tyre Cleaning</td>
+            <td>Steam clean wheels and apply tire shine.</td>
+        </tr>
+    </table>
 </div>
-<div>
-<div class="fineshine">
-    <h2> FINE SHINE SPECIAL</h2>
-<p> When your car requires some extra TLC.</p>
-    <ul>
-        <li>Complete Deluxe Wash Package</li>
-        <li>Polish/Wax of Paintwork</li>
-        <li>Deodorise Interior</li>
-        <li>Chamois Dry</li>
-        <li>Steam Clean of Floor Mats</li>
-        <li>Clay Cloth</li>
-    </ul>
+
+
+<!-- FINE SHINE SPECIAL -->
+<div class="fineshine centered-text">
+    <h2>Fine Shine Special</h2>
+    <style>
+          .video {
+    width: 100%;
+    height: auto;
+}
+    </style>
+    <video class="video" width="400" height="400" controls>
+        <source src="images/finecar.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+    <table>
+        <tr>
+            <th>Service</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Complete Deluxe Wash Package</td>
+            <td>Includes thorough cleaning and polish/wax.</td>
+        </tr>
+        <tr>
+            <td>Deodorize Interior</td>
+            <td>Freshen up the car's interior.</td>
+        </tr>
+        <tr>
+            <td>Steam Clean of Floor Mats</td>
+            <td>Remove dirt and stains from floor mats.</td>
+        </tr>
+        <tr>
+            <td>Clay Cloth</td>
+            <td>Use clay cloth for surface contaminants.</td>
+        </tr>
+    </table>
 </div>
-<h3>OUR LEGACY</h3>
-<p></p>
+</div>
 </body>
 </html>
