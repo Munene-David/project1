@@ -9,17 +9,18 @@
     <link rel="stylesheet" href="CSS/content.css">
 </head>
    <!--topnav-links-->
-    <div class="topnav">
-        <a href="index.html" >Home Page</a>
-        <a href="Car Care.html" >Car Care</a>
-        <a href="Detailing.html" >Detailing</a>
-        <a href="locations.html" >Locations</a>
-        <a href="about-us.html" >About Us</a>
-        <a href="bookNow.html" >Book Now</a>
+   <div class="topnav">
+        <a href="index.php" >Home Page</a>
+        <a href="Car Care.php" >Car Care</a>
+        <a href="Detailing.php" >Detailing</a>
+        <a href="locations.php" >Locations</a>
+        <a href="about-us.php" >About Us</a>
+        <a href="bookNow.php" >Book Now</a>
 
         <div class="topnav-right">
-            <a href="membership" >Membership</a>
-        </div>
+            <a href="#membership.php" >Membership</a>
+
+    </div>
     </div>
 
 <body>
