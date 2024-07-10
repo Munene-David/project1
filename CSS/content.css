@@ -24,15 +24,6 @@ h1, h2, p {
     background-color: #474e5d;
     color: white;
 }
-
-/* Team member card styling */
-.column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-}
-
 .container {
     padding: 100px 16px;
 }
@@ -41,16 +32,33 @@ h1, h2, p {
     color: grey;
 }
 
+.ceo-card {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.ceo-card img {
+    max-width: 100px; /* Adjust image size */
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.ceo-info {
+    flex: 1;
+}
+
 .button {
+    background-color: #0074d9;
+    color: #ffffff;
     border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
+    border-radius: 5px;
+    padding: 10px 20px;
     cursor: pointer;
-    width: 100%;
 }
 
 .button:hover {
