@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="CSS/navStyle.css">
+    <link rel="stylesheet" href="CSS/book.css">
+
 </head>
 <body>
     <!-- Navigation links -->
@@ -22,3 +24,28 @@
 
     </div>
     </div>
+    </head>
+<body>
+    <h1>Book Now</h1>
+    <form action="process_booking.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Preferred Time:</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="service">Select Service:</label>
+        <select id="service" name="service">
+            <option value="car-wash">Car Wash</option>
+            <option value="detailing">Detailing</option>
+        </select>
+        <button type="submit">Submit Booking</button>
+    </form>
+    </body>
+</html>
