@@ -30,7 +30,7 @@ print "Today is " . date('l, F jS Y H:i:s');
 
 // Creating (Declaring) a variable
 
-$fname = "Alex Okama"; // Declaration of a vaiable or a string or a group of words.
+$fname = "Alex Okama"; // Declaration of a variable or a string or a group of words.
 
 $yob = 2006; //Declaration of digit or an integer
 
