@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php require_once ("includes/db.connection.php");?>
+<?php include_once ("templates/header.php");?>
     <title>Car Wash Locations</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="CSS/navStyle.css"></head>
